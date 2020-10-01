@@ -59,6 +59,7 @@ class Smarty_Internal_Undefined
     public function __call($name, $args)
     {
         if (isset($this->class)) {
+            // Comentei aqui pois deu um erro !. Atenção !!
             throw new SmartyException("undefined extension class '{$this->class}'");
         } else {
             throw new SmartyException(get_class($args[ 0 ]) . "->{$name}() undefined method");
