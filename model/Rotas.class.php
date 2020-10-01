@@ -7,7 +7,8 @@ Class Rotas{
 		//Verifica se a URL chamou o arquivo.
 		if(isset($_GET['pag'])){
 			//Concatena ele com .php
-			$pagina = $_GET['pag'] . 'php';
+			$pagina = 'controller/' .$_GET['pag'] . '.php';
+			echo $pagina;
 			//Verifica se o arquivo existe.
 			if(file_exists($pagina)){
 				include $pagina;

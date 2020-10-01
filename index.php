@@ -4,8 +4,7 @@
 require './lib/autoload.php';
 
 $smarty = new Template();
-
-
+Rotas::get_pagina();
 
 //VALORES PARA O TEMPLATE
 $smarty->assign('NOME', 'RAFAEL ALVES LUCAS');
