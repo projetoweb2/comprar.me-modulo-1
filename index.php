@@ -3,15 +3,8 @@
 //Chegando no arquivo autoload, ele faz o carregamento e a instância de todas as classes.
 require './lib/autoload.php';
 
-$smarty = new Smarty();
-//setTemplateDir irá solicitar o doretório para saber onde está o template.
-$smarty->setTemplateDir('view/');
+$smarty = new Template();
 
-//Sempre que fizer a chamada da index.tpl, irá colocar os arquivos de compilação aqui.
-$smarty->setCompileDir('view/compile/');
-
-//Irá guardar arquivos nesse cache quando necessário
-$smarty->setCacheDir('view/cache/');
 
 
 //VALORES PARA O TEMPLATE

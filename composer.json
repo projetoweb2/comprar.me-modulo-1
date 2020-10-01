@@ -7,6 +7,10 @@
     "config": {
         "vendor-dir" : "lib/"
     },
+    
+    "autoload": {
+        "classmap" : ["model/"]
+    }
 
-    "classmap" : ["model/"]
+    
 }
