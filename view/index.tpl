@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Teste</title>
+	<title>Comprar.me</title>
 </head>
 <body>
 <h2>Esta é a pasta carregada com o smarty</h2>
