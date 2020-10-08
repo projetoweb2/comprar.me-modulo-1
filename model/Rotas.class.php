@@ -13,8 +13,14 @@ Class Rotas{
 
 			self::$pag = explode('/', $pagina);
 
+			//echo '<pre>';
+			//var_dump(self::$pag);
+			//echo 'pre';
+
+			$pagina = 'controller/' .self::$pag[0] . '.php';
+
 			//Concatena ele com .php
-			$pagina = 'controller/' .$_GET['pag'] . '.php';
+			//$pagina = 'controller/' .$_GET['pag'] . '.php';
 			echo $pagina;
 			//Verifica se o arquivo existe.
 			if(file_exists($pagina)){
