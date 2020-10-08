@@ -21,7 +21,7 @@ Class Rotas{
 
 			//Concatena ele com .php
 			//$pagina = 'controller/' .$_GET['pag'] . '.php';
-			echo $pagina;
+			//echo $pagina;
 			//Verifica se o arquivo existe.
 			if(file_exists($pagina)){
 				include $pagina;
