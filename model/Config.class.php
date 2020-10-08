@@ -16,6 +16,13 @@ Class Config(){
 
 	//INFORMAÇÕES PARA O PHP MAILER.
 	const EMAIL_HOST = "smtp.gmail.com";
+	const EMAIL_USER = "rafaellucasdesenvolvedorweb@gmail.com";
+	const EMAIL_NOME = "Contato Comprar.me";
+	const EMAIL_SENHA = "jokermatarobin2016";
+	const EMAIL_PORTA = 587;
+	const EMAIL_SMTPAUTH = true;
+	const EMAIL_SMTPSECURE = "tls";
+	const EMAIL_EMAIL_COPIA = "rafaellucasdesenvolvedorweb@gmail.com";
 
 }
 
