@@ -3,6 +3,10 @@
 Class Rotas{
 
 	public static $pag;
+
+	static function get_SiteHOME(){
+		return Config::SITE_URL . '/' .Config::SITE_PASTA;
+	}
     
     //Método estático pode ser acessado sem chamar a classe
 	static function get_Pagina(){

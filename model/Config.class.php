@@ -1,6 +1,6 @@
 <?php 
 
-Class Config(){
+Class Config{
 
 	//INFORMAÇÕES BÁSICAS DO SITE.
 	const SITE_URL = "http://localhost";
@@ -12,7 +12,7 @@ Class Config(){
 	const BD_HOST = "localhost",
 	      BD_USER = "root",
 	      BD_SENHA = "",
-	      BD_BANCO = "comprar.me",
+	      BD_BANCO = "comprar.me";
 
 	//INFORMAÇÕES PARA O PHP MAILER.
 	const EMAIL_HOST = "smtp.gmail.com";

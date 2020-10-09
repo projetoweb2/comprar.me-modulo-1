@@ -9,6 +9,8 @@ Rotas::get_pagina();
 //VALORES PARA O TEMPLATE
 $smarty->assign('NOME', 'RAFAEL ALVES LUCAS');
 
+echo Rotas::get_SiteHOME();
+
 //A partir da index.php ele irá fazer um display chamando a index.tpl
 $smarty->display('index.tpl'); // Esta sempre deve estar por último.
 
