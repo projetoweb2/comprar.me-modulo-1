@@ -3,6 +3,8 @@
 Class Rotas{
 
 	public static $pag;
+	private static $pasta_controller = 'controller';
+	private static $pasta_view = 'view';
 
 	static function get_SiteHOME(){
 		return Config::SITE_URL . '/' .Config::SITE_PASTA;
@@ -10,6 +12,14 @@ Class Rotas{
 
 	static function get_SiteRAIZ(){
 		return $_SERVER['DOCUMENT_ROOT'] . '/' .Config::SITE_PASTA;
+	}
+
+	static function get_SiteTEMA(){
+		return self::get_SiteHOME(). '/' .self::$pasta_view;
+	}
+
+	static function pag_Carrinho(){
+		return self::get_SiteHOME(). '/carrinho';
 	}
     
     //Método estático pode ser acessado sem chamar a classe
