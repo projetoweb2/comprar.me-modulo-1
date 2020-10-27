@@ -8,6 +8,8 @@ Rotas::get_pagina();
 
 //VALORES PARA O TEMPLATE
 $smarty->assign('NOME', 'RAFAEL ALVES LUCAS');
+//Toda vez que eu usar o GET_TEMA dentro de algum tpl, ele irá dar referência a pasta get_SiteTEMA
+$smarty->assign('GET_TEMA', Rotas::get_SiteTEMA());
 
 echo Rotas::get_SiteRAIZ();
 
