@@ -137,7 +137,16 @@
                         <li><a href="#"> Produtos </a></li>
                         <li><a href="#"> Info </a></li>
                     </ul>   
-                    <!-- fim do menu breadcrumb-->             
+                    <!-- fim do menu breadcrumb-->     
+
+                    <!-- Bloco funcional php-->
+                    {php}
+
+                    Rotas::get_Pagina();
+                    //var_dump(Rotas::$pag);
+
+
+                    {/php}        
                     
                   
                     

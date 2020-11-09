@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2020-10-27 12:58:22
+/* Smarty version 3.1.36, created on 2020-11-09 14:24:17
   from 'C:\xampp\htdocs\loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_5f980b5e9678c2_24753796',
+  'unifunc' => 'content_5fa9430115a825_11787886',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '88a1285121fb32d2e24d6766738b0f2210382789' => 
     array (
       0 => 'C:\\xampp\\htdocs\\loja\\view\\index.tpl',
-      1 => 1603799900,
+      1 => 1604928250,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f980b5e9678c2_24753796 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fa9430115a825_11787886 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>
@@ -173,7 +173,16 @@ function content_5f980b5e9678c2_24753796 (Smarty_Internal_Template $_smarty_tpl)
                         <li><a href="#"> Produtos </a></li>
                         <li><a href="#"> Info </a></li>
                     </ul>   
-                    <!-- fim do menu breadcrumb-->             
+                    <!-- fim do menu breadcrumb-->     
+
+                    <!-- Bloco funcional php-->
+                    <?php 
+
+                    Rotas::get_Pagina();
+                    //var_dump(Rotas::$pag);
+
+
+                    ?>        
                     
                   
                     

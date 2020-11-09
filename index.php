@@ -11,7 +11,7 @@ $smarty->assign('NOME', 'RAFAEL ALVES LUCAS');
 //Toda vez que eu usar o GET_TEMA dentro de algum tpl, ele irá dar referência a pasta get_SiteTEMA
 $smarty->assign('GET_TEMA', Rotas::get_SiteTEMA());
 
-echo Rotas::get_SiteRAIZ();
+
 
 //A partir da index.php ele irá fazer um display chamando a index.tpl
 $smarty->display('index.tpl'); // Esta sempre deve estar por último.
