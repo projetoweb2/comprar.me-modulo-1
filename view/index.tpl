@@ -59,11 +59,11 @@
                             <ul class="nav navbar-nav">
                                 <li><a href="{$GET_HOME}"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
                                
-                                <li><a href="#"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
-                                <li><a href="{$GET_CARRINHO}"><i class="glyphicon glyphicon-shopping-cart"></i> Carrinho </a> </li>
-                                <li><a href="#" ><i class="glyphicon glyphicon-envelope"></i> Contato </a> </li>
+                                <li><a href="{$PAG_MINHACONTA}"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
+                                <li><a href="{$PAG_CARRINHO}"><i class="glyphicon glyphicon-shopping-cart"></i> Carrinho </a> </li>
+                                <li><a href="{$PAG_CONTATO}" ><i class="glyphicon glyphicon-envelope"></i> Contato </a> </li>
                                 
-                                <li class="dropdown">
+                                <!--<li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Categorias <i class="glyphicon glyphicon-menu-down"></i></a> 
                                 
                                     <ul class="dropdown-menu">
@@ -77,7 +77,7 @@
                                     
                                     </ul>
                                 
-                                </li>
+                                </li> -->
                                
                                 
                             </ul>
