@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2020-11-09 14:24:17
+/* Smarty version 3.1.36, created on 2020-11-10 11:45:42
   from 'C:\xampp\htdocs\loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_5fa9430115a825_11787886',
+  'unifunc' => 'content_5faa6f567221a6_74639571',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '88a1285121fb32d2e24d6766738b0f2210382789' => 
     array (
       0 => 'C:\\xampp\\htdocs\\loja\\view\\index.tpl',
-      1 => 1604928250,
+      1 => 1605005138,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fa9430115a825_11787886 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5faa6f567221a6_74639571 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>
@@ -93,10 +93,12 @@ function content_5fa9430115a825_11787886 (Smarty_Internal_Template $_smarty_tpl)
                         
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="nav navbar-nav">
-                                <li><a href="#"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
                                
                                 <li><a href="#"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
-                                <li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i> Carrinho </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_CARRINHO']->value;?>
+"><i class="glyphicon glyphicon-shopping-cart"></i> Carrinho </a> </li>
                                 <li><a href="#" ><i class="glyphicon glyphicon-envelope"></i> Contato </a> </li>
                                 
                                 <li class="dropdown">

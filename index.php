@@ -4,12 +4,15 @@
 require './lib/autoload.php';
 
 $smarty = new Template();
-Rotas::get_pagina();
 
 //VALORES PARA O TEMPLATE
 $smarty->assign('NOME', 'RAFAEL ALVES LUCAS');
 //Toda vez que eu usar o GET_TEMA dentro de algum tpl, ele irá dar referência a pasta get_SiteTEMA
 $smarty->assign('GET_TEMA', Rotas::get_SiteTEMA());
+
+$smarty->assign('GET_HOME', Rotas::get_SiteHOME());
+
+$smarty->assign('GET_CARRINHO', Rotas::pag_Carrinho());
 
 
 
